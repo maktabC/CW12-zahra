@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./library/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Updated classes for proper spacing in Bootstrap -->
+  <div class="container text-center py-5">
+    <!-- Keep the form class attribute empty if not required -->
+    <form action="https://localhost:7176/api/address/saveAddress" method="post">
+      <input type="text" placeholder="ثبت آدرس" name="address" class="form-control mb-2">
+      <!-- Added form-control class for styling -->
+      <button type="submit" class="btn btn-outline-info">ثبت</button>
+    </form>
+  </div>
+
+  <div class="container text-center py-5">
+    <!-- Compatibility fix by removing the class attribute with a non-existent class "addressIdd" -->
+    <form>
+      <!-- Added form-control class for styling and fixed id to match the GetAddress function argument -->
+      <input type="text" placeholder="آیدی" name="id" id="addressID" class="form-control mb-2">
+      <button type="button" class="btn btn-outline-info" onclick="GetAddress()">ارسال</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th>آدرس</th>
+          <th>آیدی</th>
+        </tr>
+      </thead>
+      <tbody id="tb">
+
+      </tbody>
+    </table>
+  </div>
+
+  <script src="./library/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Use bootstrap.bundle.min.js which includes Popper for dropdowns, tooltips, and popovers -->
+  <script>
+    function GetAddress() {
+      // Fixed the id to correctly reference the input element
+      var id = document.getElementById('addressID').value;
+      var address = "https://localhost:7176/api/Address/GetAddress/" + id;
+      fetch(address, { headers: { 'Access-Control-Allow-Origin': "*" } }).then((response) =>response.json())
+        .then((data) => {
+          let tr = document.createElement("tr");
+          let td1 = document.createElement("td");
+          td1.innerText = data.AddressName;
+          let td2 = document.createElement("td");
+        //  td2.innerText = data.AddressID;
+          tr.appendChild(td1, td2);
+          document.getElementById("tb").appendChild(tr);
+        }).catch(error => Console.error("something went wrong", error));
+    }
+
+  </script>
+</body>
+
+</html>

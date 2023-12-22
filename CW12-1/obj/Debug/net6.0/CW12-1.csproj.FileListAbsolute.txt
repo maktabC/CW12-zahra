@@ -1,0 +1,66 @@
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\appsettings.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\CW12-1.staticwebassets.runtime.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\CW12-1.exe
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\CW12-1.deps.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\CW12-1.runtimeconfig.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\CW12-1.dll
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\CW12-1.pdb
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.csproj.AssemblyReference.cache
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.AssemblyInfoInputs.cache
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.AssemblyInfo.cs
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.csproj.CoreCompileInputs.cache
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.RazorAssemblyInfo.cache
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.RazorAssemblyInfo.cs
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.CW12-1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.build.CW12-1.props
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CW12-1.props
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CW12-1.props
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\scopedcss\bundle\CW12-1.styles.css
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\scopedcss\projectbundle\CW12-1.bundle.scp.css
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.csproj.CopyComplete
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.dll
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\refint\CW12-1.dll
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.pdb
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\CW12-1.genruntimeconfig.cache
+C:\Users\Navid\Documents\My Files\MaktabC#\CW12-1\new\CW12-1_2\CW12-1\obj\Debug\net6.0\ref\CW12-1.dll
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\appsettings.Development.json
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\appsettings.json
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\CW12-1.staticwebassets.runtime.json
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\CW12-1.exe
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\CW12-1.deps.json
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\CW12-1.runtimeconfig.json
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\CW12-1.dll
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\CW12-1.pdb
+E:\week13\CW12-1-new--main\CW12-1\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.csproj.AssemblyReference.cache
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.GeneratedMSBuildEditorConfig.editorconfig
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.AssemblyInfoInputs.cache
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.AssemblyInfo.cs
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.csproj.CoreCompileInputs.cache
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.MvcApplicationPartsAssemblyInfo.cache
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.RazorAssemblyInfo.cache
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.RazorAssemblyInfo.cs
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.CW12-1.Microsoft.AspNetCore.StaticWebAssets.props
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.build.CW12-1.props
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CW12-1.props
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CW12-1.props
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets.pack.json
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets.build.json
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\staticwebassets.development.json
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\scopedcss\bundle\CW12-1.styles.css
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\scopedcss\projectbundle\CW12-1.bundle.scp.css
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.csproj.CopyComplete
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.dll
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\refint\CW12-1.dll
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.pdb
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\CW12-1.genruntimeconfig.cache
+E:\week13\CW12-1-new--main\CW12-1\obj\Debug\net6.0\ref\CW12-1.dll
