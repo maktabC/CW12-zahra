@@ -5,34 +5,36 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CW12_1.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/address")]
 [ApiController]
 public class AddressController : ControllerBase
 {
     Serilization serialize = new Serilization();
-    DataAccsess dataAccess = new DataAccsess("E:\\week13\\CW12-1-new--main\\CW12-1\\bin\\Debug\\net6.0\\Address.txt");
+    DataAccsess dataAccess = new DataAccsess("Database.json");
 
-    [HttpPost("SaveAddress")]
-    public IActionResult SaveAddress([FromForm] string address)
+    [HttpPost]
+    public IActionResult Post([FromForm] string address)
     {
-        var addressJson = serialize.SerilizeToJson(new Address { AddressName = address , AddressID = Guid.NewGuid().ToString()});
+        var addressJson = serialize.SerilizeToJson(new Address { AddressName = address, AddressID = Guid.NewGuid().ToString() });
         dataAccess.SaveToFile(addressJson);
-        return Ok();
+        return Ok(addressJson);
     }
 
-    [HttpGet("GetAddress/{id}")]
-    public IActionResult GetAddress(string id)
+    [HttpGet]
+    public IActionResult Get(string addressId)
     {
-        var addressArr = dataAccess.ReadFile();
+        var address = dataAccess.ReadFile();
 
-        foreach (var address in addressArr)
-        {
-            var currentAdderss = serialize.DeserilizeJson(address);
-            if (currentAdderss.AddressID == id)
-            {
-                return Ok(currentAdderss);
-            }
-        }
-        return NotFound();
+        var result = address.First(x => x.AddressID == addressId);
+
+        return Ok(result);
+    }
+
+    [HttpGet]
+    [Route("/Delete")]
+    public IActionResult Delete(string addressId)
+    {
+        var result = dataAccess.DeleteAddress(addressId);
+        return Ok(result);
     }
 }

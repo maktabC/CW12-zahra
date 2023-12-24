@@ -12,6 +12,6 @@ public class Serilization
     }
     public Address DeserilizeJson(string json)
     {
-        return  JsonConvert.DeserializeObject<Address>(json);
+        return JsonConvert.DeserializeObject<Address>(json);
     }
 }

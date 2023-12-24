@@ -12,8 +12,8 @@
   <!-- Updated classes for proper spacing in Bootstrap -->
   <div class="container text-center py-5">
     <!-- Keep the form class attribute empty if not required -->
-    <form action="https://localhost:7176/api/address/saveAddress" method="post">
-      <input type="text" placeholder="ثبت آدرس" name="address" class="form-control mb-2">
+    <form action="https://localhost:7021/api/address" method="post">
+      <input type="text" placeholder="ثبت آدرس" name="address" id="address" class="form-control mb-2">
       <!-- Added form-control class for styling -->
       <button type="submit" class="btn btn-outline-info">ثبت</button>
     </form>
@@ -21,46 +21,76 @@
 
   <div class="container text-center py-5">
     <!-- Compatibility fix by removing the class attribute with a non-existent class "addressIdd" -->
-    <form>
+    <form method="post">
       <!-- Added form-control class for styling and fixed id to match the GetAddress function argument -->
       <input type="text" placeholder="آیدی" name="id" id="addressID" class="form-control mb-2">
       <button type="button" class="btn btn-outline-info" onclick="GetAddress()">ارسال</button>
     </form>
   </div>
 
-  <div class="container">
-    <table class="table">
-      <thead class="table-dark">
-        <tr>
-          <th>آدرس</th>
-          <th>آیدی</th>
-        </tr>
-      </thead>
-      <tbody id="tb">
+  <div class="container text-center py-5">
+    <!-- Compatibility fix by removing the class attribute with a non-existent class "addressIdd" -->
+    <form method="post">
+      <!-- Added form-control class for styling and fixed id to match the GetAddress function argument -->
+      <input type="text" placeholder="Id" name="idForDelete" id="idForDelete" class="form-control mb-2">
+      <button type="button" class="btn btn-outline-info" onclick="DeleteAddress()">حذف</button>
+    </form>
+  </div>
 
-      </tbody>
+  <div class="container">
+    <table id="tb" class="table">
+      <tr>
+        <th>آدرس</th>
+        <th>آیدی</th>
+      </tr>
     </table>
   </div>
 
   <script src="./library/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
   <!-- Use bootstrap.bundle.min.js which includes Popper for dropdowns, tooltips, and popovers -->
   <script>
-    function GetAddress() {
-      // Fixed the id to correctly reference the input element
-      var id = document.getElementById('addressID').value;
-      var address = "https://localhost:7176/api/Address/GetAddress/" + id;
-      fetch(address, { headers: { 'Access-Control-Allow-Origin': "*" } }).then((response) =>response.json())
-        .then((data) => {
-          let tr = document.createElement("tr");
-          let td1 = document.createElement("td");
-          td1.innerText = data.AddressName;
-          let td2 = document.createElement("td");
-        //  td2.innerText = data.AddressID;
-          tr.appendChild(td1, td2);
-          document.getElementById("tb").appendChild(tr);
+
+    function DeleteAddress() {
+      var id = document.getElementById('idForDelete').value;
+      var address = "https://localhost:7021/Delete?addressId=" + id;
+      fetch(address)
+        .then((response) => response.text())
+        .then(data => {
+          if (data == "true") {
+            alert('آدرس حذف شد');
+            document.getElementById('idForDelete').value = "";
+          }
+
+          if (data == "false") {
+            alert('خطا در حذف کردن آدرس');
+            document.getElementById('idForDelete').value = "";
+          }
+
         }).catch(error => Console.error("something went wrong", error));
     }
 
+    function GetAddress() {
+      var id = document.getElementById('addressID').value;
+      var address = "https://localhost:7021/api/address?addressId=" + id;
+      fetch(address)
+        .then((response) => response.json())
+        .then(data => {
+
+          let tr = document.createElement("tr");
+
+          let td1 = document.createElement("td");
+          td1.innerText = data.addressName;
+
+          let td2 = document.createElement("td");
+          td2.innerText = data.addressID;
+
+          tr.appendChild(td1);
+          tr.appendChild(td2);
+
+          document.getElementById("tb").appendChild(tr);
+
+        }).catch(error => Console.error("something went wrong", error));
+    }
   </script>
 </body>
 
